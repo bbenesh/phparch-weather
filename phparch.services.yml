@@ -1,0 +1,4 @@
+services:
+  phparch.weather_service:
+    class: \Drupal\phparch\Service\WeatherService
+    arguments: ['@http_client', 'API KEY HERE']
